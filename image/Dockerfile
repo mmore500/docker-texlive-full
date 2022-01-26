@@ -1,16 +1,17 @@
 #
-# thomasweise/docker-texlive-full
+# mmore500/docker-texlive-full
 #
 # This is an image with a full TeX Live installation and several
 # fonts and tools.
-# Source: http://github.com/thomasWeise/docker-texlive-full/
+# Source: http://github.com/mmore500/docker-texlive-full/
+# Forked from: http://github.com/thomasWeise/docker-texlive-full/
 # License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007
 # The license applies to the way the image is built, while the
 # software components inside the image are under the respective
 # licenses chosen by their respective copyright holders.
 #
 FROM ubuntu:20.04
-MAINTAINER Thomas Weise <tweise@hfuu.edu.cn>
+MAINTAINER Matthew Andres Moreno <m.more500@gmail.com>
 
 ENV LANG=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
