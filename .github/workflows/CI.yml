@@ -18,7 +18,6 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v1
         with:
-          dockerfile: image/Dockerfile
           push: true
           tags: "GITHUB_ACTION_${{ github.run_number }}"
           username: ${{ secrets.DOCKER_USERNAME }}
